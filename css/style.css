@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Arial Narrow";
+    src: url("../fonts/ARIALNB.TTF") format("TTF");
+}
+body {
+    font-family: "Arial Narrow";
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    background-color:#152131;
+}
+.nav-link,
+.navbar-brand {
+    color:white;
+    font-size:24px;
+}
+.aviaflot {
+    background: url('../images/avia.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 770px;
+}
+.aviaflot__text {
+    max-width: 1000px;
+    font-size:18px;
+}
+.aviaflot__button {
+    border-radius: 25px;
+    background-color:rgba(21,33,49, 0.2);
+    border:none;
+    font-size:24px;
+    color:white;
+    opacity:0.7;
+    transition:0.2s;
+}
+.aviaflot__button:hover {
+    opacity:1;
+}
+.cards {
+    background-color:#152131;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.card__title {
+    font-size:28px;
+}
+.card__text {
+    max-width: 360px;
+    font-size:18px;
+    opacity:0.8;
+}
+.avia-second {
+    background: url('../images/section1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:640px;
+    position: relative;
+}
+.avia-second__text {
+    max-width: 1200px;
+    opacity:0.8;
+}
+.avia__years {
+    font-size: 500px;
+    color:white;
+    text-transform: uppercase;
+    top:0;
+    left:0;
+    position: absolute;
+    font-weight: bold;
+    opacity:0.5;
+    line-height: normal;
+    letter-spacing: -20px;
+}
+.choice__accordion {
+    padding-right: 100px;
+}
+.choice {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-color:#152131;
+}
+.choice__card {
+    background-color:#838992;
+    border-radius:15px;
+    margin-bottom: 30px;
+    
+}
+.choice__link  {
+    color:#152131;
+}
+.choice__link:hover {
+    text-decoration: none;
+}
+.choice__button {
+    background-color:rgba(159,164,170,0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius:40px;
+    color:#152131;
+}
+.choice__title {
+    font-size: 28px;
+    margin-bottom: 60px;
+}
+.card.choice__card {
+    background-color: transparent;
+    border: none;
+}
+.choice__show {
+    background: #838992;
+    border-radius:15px;
+}
+.card-header {
+    background-color:#838992;
+}
+.choice__card__header {
+    border-radius:15px !important; 
+}
+.hit {
+    min-height:640px;
+    background: url('../images/section2.jpg') no-repeat;
+    background-size:cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer {
+    background-color:#152131;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.hit__item {
+    background-color:#152131;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.hit-col {
+    padding-left: 70px;
+    padding-right: 0;
+}
+.hit {
+    position: relative;
+}
+.hit__absolute {
+    font-size: 200px;
+    color: white;
+    text-transform: uppercase;
+    top: 25%;
+    left: 0;
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.5;
+    line-height: normal;
+    letter-spacing: -10px;
+}
+@media(max-width:1200px) {
+    .choice__accordion {
+        padding-right:15px;
+    }
+    .hit-col {
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
+@media(max-width:1300px) {
+    .avia__years {
+        font-size: 400px;
+    }
+}
+@media(max-width:1050px) {
+    .avia__years {
+        font-size: 300px;
+        top:25%;
+    }
+}
+@media(max-width:750px) {
+    .avia__years {
+        font-size: 250px;
+    }
+    .hit__absolute {
+        display:none;
+    }
+}
+@media(max-width:600px) {
+    .avia__years {
+        font-size: 200px;
+    }
+}
